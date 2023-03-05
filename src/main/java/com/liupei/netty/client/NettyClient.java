@@ -14,7 +14,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 public class NettyClient {
 
     public static void main(String[] args) {
-        new NettyClient().connect("127.0.0.1", 8001);
+        new NettyClient().connect("127.0.0.1", 8080);
     }
 
     public void connect(String host, int port){
